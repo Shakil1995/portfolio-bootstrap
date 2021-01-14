@@ -44,20 +44,139 @@ font-weight: 700;
 .header-area p{
     font-size: 20px;
 }
-.header-area img {
-/* margin-bottom: 20px; */
+
+.banner{
+    align-items: center;
+    height: 150px;
+    border-radius: 15px;
+    background-color: white;
 }
+.banner-text{
+    padding-left: 20px;
+}
+.banner h5{
+    font-size: 25px;
+}
+
+.banner-site-img{
+    width: 75%;
+    height: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+.footer-seaction{
+background-color:#3E3E3E ;
+margin-top: 50px;
+height: 300px;
+justify-content: center;
+
+}
+
+.footer-area{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  
+}
+.footer-area h2{
+
+    color: white;
+    text-align: center;
+}
+.footer-area a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.footer-area a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form{
+    margin-top: 25px;
+}
+.footer-email-form h2{
+    color: white;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+#footer-email::placeholder{
+    color: lightgray;
+}
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: all 0.4s ease-out;
+
+}
+
+.copy-right-section {
+    background-color: #3E3E3E;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+   padding-bottom: 15px;
+}
+
 @media (max-width: 768px) {
    .header-area{
    display: inline-block;
    margin-bottom: 25px;
-  
    } 
    .header-img img{
     width: 100%;
     height: auto;
     margin-top: 40px;
- 
-  
-   }
+}
+
+.banner-site-img{
+    padding-top: 50px;
+height: auto;
+width: auto;
+}
+/* .footer-area{
+   display: inline-flex; 
+} */
+.footer-seaction{
+    flex-direction: column;
+    background-color: rgb(57, 59, 57);
+    height: auto;
+}
+.footer-email-form{
+    margin-top: 15px;
+    text-align: center;
+}
+
  }
